@@ -442,7 +442,7 @@ $(function(){
                 document.body.removeChild(downloadLink);
 
                 if ($('#URL').length) {
-                    $('#URL').val('Image downloaded directly to your device.').fadeIn();
+                    $('#URL').val('Please invert image').fadeIn();
                 }
             } catch (err) {
                 alert('Could not generate PNG image: ' + err.message);
