@@ -440,9 +440,6 @@ $(function(){
                 document.body.appendChild(downloadLink);
                 downloadLink.click();
                 document.body.removeChild(downloadLink);
-
-                if ($('#URL').length) {
-                    $('#URL').val('Please invert image').fadeIn();
                 }
             } catch (err) {
                 alert('Could not generate PNG image: ' + err.message);
